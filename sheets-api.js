@@ -70,4 +70,13 @@ function getColorByAffectedCount(count) {
     return '#ffcccc';                         // Low risk - very light red
 }
 
+// Add a function to handle slow rotation
+function slowRotation() {
+    // Add your rotation logic here
+}
+
+// Call the slowRotation function at regular intervals
+setInterval(slowRotation, 1000); // Rotate every 1000 milliseconds (1 second)
+
+
 export { fetchCountryVulnerabilities }; 
